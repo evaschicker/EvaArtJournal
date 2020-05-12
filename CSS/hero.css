@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+margin: 0px;
+w/*idth: 1200px;*/
+}
+
+header {
+	background-color: #F1F1F1;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+	font-family: 'Source Code Pro', monospace;
+}
+
+
+header h1 {
+	color: #3C3C3C;
+	font-family: "Source Code Pro", sans serif;
+	font-size: 70px;
+	font-weight: 600;
+	font-kerning: 10px;
+}
+
+header img {
+	width: 200px;
+    border: 50px solid white;
+    margin: 40px 0 20px 0;
+}
+/* Main area elements */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img {
+	max-width: 100%;
+
+}
+
+/*Font styles*/
+h2 {
+	font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+h3 {
+	font-size: 34px;
+	font-weight: 500;
+	text-align: left;
+	margin-left: 62px;
+	padding-right: 60px;
+}
+
+h4 {
+	font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 62px;
+    padding-right: 60px;
+    line-height: 40px;
+}
+
+p {
+	font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 62px;
+    padding-right: 60px;
+    line-height: 60px;
+}
+
+hr {
+	line-height: 4px;
+	color: #E3E3E2;
+	margin: 62px 60px 60px 62px;
+	/*margin-left: 62px;*/
+    /*margin-right: 62px;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+
+    outline-style: solid;
+    outline-width: thin;
+}
+
+a {
+	color: black;
+	/*text-decoration: none;*/
+}
+
+a:hover {
+	color: #FD00A1;
+	font-size: 36px;
+    font-weight: 600;
+}
+
+footer {
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	margin-top: 100px;
+}
+
+footer p {
+	text-align: left;
+	margin-left: 140px;
+	line-height: 40px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+
+
