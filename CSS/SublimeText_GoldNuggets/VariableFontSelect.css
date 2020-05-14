@@ -1,0 +1,13 @@
+const words = document.querySelectorAll("span");
+const updateFontWeight = cursorXPosition => {
+   const xPercentage = cursorXPosition / window.innerWidth;
+   const fontWeight = 800 * xPercentage + 100;
+   words.forEach((letter, i) => {
+      setTimeout(function() {
+        letter.style.fontVariationSettings = "'wght' " + fontWeight;
+      }, 120 * (i * 0.3));
+   });
+};
+document.body.addEventListener("mousemove", e => {
+   updateFontWeight(e.clientX);
+});

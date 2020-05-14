@@ -2,13 +2,13 @@
 
 body {
 margin: 0px;
-w/*idth: 1200px;*/
+/*width: 1200px;*/
 }
 
 header {
 	background-color: #F1F1F1;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 6px;
 }
 
 h1, h2, h3, h4, p, ul, ol, li {
@@ -17,62 +17,61 @@ h1, h2, h3, h4, p, ul, ol, li {
 
 
 header h1 {
-	color: #3C3C3C;
+	color: black;
 	font-family: "Source Code Pro", sans serif;
-	font-size: 70px;
-	font-weight: 600;
-	font-kerning: 10px;
+	font-size: 20px;
+	font-weight: 400;
 }
 
 header img {
-	width: 200px;
-    border: 50px solid white;
-    margin: 40px 0 20px 0;
+	width: 80px;
+	padding: 20px;
+    border: 4px solid white;
+    margin: 10px 0 0px 0;
 }
 /* Main area elements */
 main {
-	max-width: 1200px;
+	max-width: 700px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 6px;
 }
 
 main img {
-	max-width: 100%;
+	max-width: 70%;
+	display: block;
+	margin: 0 auto;
+
 
 }
 
 /*Font styles*/
 h2 {
-	font-size: 42px;
+	font-size: 16px;
     font-weight: 600;
     text-align: center;
 }
 
 
 h3 {
-	font-size: 34px;
-	font-weight: 500;
+	font-size: 14px;
+	font-weight: 600;
 	text-align: left;
-	margin-left: 62px;
-	padding-right: 60px;
 }
 
 h4 {
-	font-size: 30px;
+	font-size: 14px;
     font-weight: 400;
     text-align: left;
-    margin-left: 62px;
-    padding-right: 60px;
-    line-height: 40px;
+    line-height: 16px;
 }
 
 p {
-	font-size: 30px;
+	font-size: 14px;
     font-weight: 400;
     text-align: left;
-    margin-left: 62px;
-    padding-right: 60px;
-    line-height: 60px;
+/*    margin-left: 100px;
+    padding: 0 80px 0 0;*/
+    line-height: 20px;
 }
 
 hr {
@@ -88,16 +87,43 @@ hr {
     outline-width: thin;
 }
 
+/*div*/
+.ImageDetails {
+	display: block;
+	margin: 2px auto;
+	max-width: 380px;
+	background-color: white;
+	padding: 6px 16px 0 20px;
+/*	border-top: 1px black solid;*/
+}
+
+.ImageDetails1 {
+
+	display: block;
+	margin: 2px auto;
+	max-width: 380px;
+	background-color: white;
+	padding: 10px 20px 6px 20px;
+	border-top: 1px lightgrey solid;
+	border-bottom: 1px lightgrey solid;
+
+}
+
+
+/*links*/
 a {
 	color: black;
 	/*text-decoration: none;*/
 }
 
 a:hover {
-	color: #FD00A1;
-	font-size: 36px;
+	color: black;
+	font-size: 16px;
     font-weight: 600;
+    background-color: #F1F1F1;
 }
+
+/* footer style */
 
 footer {
 	background-color: #F1F1F1;
@@ -109,7 +135,7 @@ footer {
 footer p {
 	text-align: left;
 	margin-left: 140px;
-	line-height: 40px;
+	line-height: 20px;
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
